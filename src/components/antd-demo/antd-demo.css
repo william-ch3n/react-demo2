@@ -1,0 +1,29 @@
+.ant-btn-primary:hover{
+    background-color: #95de64;
+    border: #95de64;
+}
+
+.ant-btn-primary{
+    background-color: #237804;
+    border: #237804;
+}
+
+.ant-btn-primary:focus {
+    color: #fff;
+    background-color: #95de64;
+    border: #95de64;
+}
+
+.ant-btn-primary-color-active{
+    background-color: #95de64;
+    border: #95de64;
+}
+
+.icon:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.icon{
+    transition: all 0.2s;
+}
