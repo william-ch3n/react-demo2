@@ -10,8 +10,6 @@ export default function person_reducer(currentState=initialState, action){
 
     const {type, value} = action;
 
-    console.log("currentState:",currentState);
-
     switch(type){
         case PERSON_ACTION_TYPES.STORE_PERSON:
             return {...currentState, persons: [...currentState.persons, value]}

@@ -23,6 +23,9 @@ import { Provider } from 'react-redux';
 import store from './components/redux/store';
 import Person from './components/Person/Person';
 import DisplayPerson from './components/Person/DisplayPerson';
+import SetStateDemo from './extensions/1_setStateHook';
+import { Context, ChildContext } from './extensions/2_context';
+import { ErrorBoundaryDemo } from './extensions/3_ErrorBoundary';
 
 function App() {
   return (
@@ -60,13 +63,19 @@ function App() {
       {/* <Numbers />
       <Actions />
       <Result /> */}
-      <Provider store={store}>
+
+      {/* redux */}
+      {/* <Provider store={store}>
         <Numbers2 />
         <Actions2 />
         <Result2 />
         <Person />
         <DisplayPerson />
-      </Provider>
+      </Provider> */}
+      {/* <SetStateDemo /> */}
+      {/* <Context /> */}
+
+      <ErrorBoundaryDemo />
     </div>
   );
 }
