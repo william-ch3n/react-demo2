@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import Hello from './components/Hello/Hello';
 import Clock from './components/Clock/Clock';
 import Todo from './components/Todo/Todo';
@@ -26,6 +26,7 @@ import DisplayPerson from './components/Person/DisplayPerson';
 import SetStateDemo from './extensions/1_setStateHook';
 import { Context, ChildContext } from './extensions/2_context';
 import { ErrorBoundaryDemo } from './extensions/3_ErrorBoundary';
+import ParentPage from './components/router-demo-new/pages/ParentPage';
 
 function App() {
   return (
@@ -75,7 +76,10 @@ function App() {
       {/* <SetStateDemo /> */}
       {/* <Context /> */}
 
-      <ErrorBoundaryDemo />
+      {/* <ErrorBoundaryDemo /> */}
+
+      {/* react-router-dom new demos */}
+      <ParentPage />
     </div>
   );
 }
