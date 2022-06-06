@@ -1,0 +1,24 @@
+.navLink-active{
+    border: 1 solid goldenrod;
+    background-color:goldenrod;
+    color: black;
+    font-weight: bold;
+}
+
+.navLink-active:hover{
+    color: black;
+}
+
+.navLink-inactive:hover{
+    border: 1 solid white;
+    background-color:white;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.navLink-inactive{
+    border: 1 solid white;
+    background-color:white;
+    color: black;
+    font-weight: bold;
+}
