@@ -14,7 +14,6 @@ export default function GrandChildPage1() {
         setName(event.target.value);
     }
 
-
     const navigate = useNavigate();
 
     const goToLastChild4 = () => {
@@ -43,6 +42,7 @@ export default function GrandChildPage1() {
             用useNavigate hooks指定路径和state，跳转页面并传递参数 */}
         <button onClick={goToLastChild4}>check out last child 4</button>
         <br />
+        {/* 使用Outlet来预留子组件渲染的位置 */}
         <Outlet />
     </div>
   )
